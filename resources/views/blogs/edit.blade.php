@@ -7,7 +7,7 @@
     @vite(['resources/css/edit-create.css'])
 </head>
 <body>
-    <div class="container">
+    <div class="container-A">
         <div class="judul">
             <h1>Edit Blog</h1> 
         </div>

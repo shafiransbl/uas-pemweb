@@ -18,7 +18,7 @@ h1{
 
 .container-A {
     width: 100%;
-    padding: 20px;
+    padding: 30px;
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -31,9 +31,6 @@ nav .navbar{
 
 nav .container{
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
-    padding: 0;
-    padding-left: 50px;
-    margin: 0;
 }
 
 .collapse{
