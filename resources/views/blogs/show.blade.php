@@ -9,7 +9,7 @@
     @vite(['resources/css/show.css'])
 </head>
 <body>
-<div class="container">
+<div class="container-A">
     <div class="judul">
         <h1>{{ $blog->title }}</h1>
         
