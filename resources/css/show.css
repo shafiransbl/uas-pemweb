@@ -1,14 +1,55 @@
 body {
     background-color: #f4f4f4;
+    justify-content: center;
+    padding: 0;
+}
+
+h1{
+    text-transform: capitalize;
+}
+
+.nav-item{
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+nav .navbar{
+    padding: 0;;
+    margin: 0;
+    border: none;
+}
+
+/*
+nav .container{
+    width: 85%;
+    padding: 0;
+    padding-left: 50px;
+    margin: 0;
+    border: none;
+}
+*/
+
+.text-center{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .judul {
-    width: 100;
+    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
+}
+
+img{
+    margin-bottom: 20px;
 }
 
 .isi,
