@@ -12,7 +12,7 @@ Aplikasi ini adalah platform berita berbasis Laravel yang memungkinkan pengguna 
 Pastikan Anda sudah menginstal hal-hal berikut sebelum memulai:
 
 - **PHP** >= 8.x
-- **LARAVEK >= 11.x
+- **LARAVEL** >= 11.x
 - **Composer**
 - **Node.js** dan **NPM** untuk manajemen dependensi front-end
 - **MySQL** atau **database** lain yang didukung oleh Laravel
