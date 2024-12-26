@@ -17,11 +17,13 @@ Route::middleware('auth')->group(function () {
     // Rute resource untuk blogs
     Route::resource('blogs', BlogController::class);
 
+    Route::get('/about', [BlogController::class, 'about'])->name('blogs.about');
+
     // Rute untuk menyimpan komentar pada blog
     Route::post('blogs/{blog}/comments', [CommentController::class, 'store'])->name('comments.store');
 
     // Rute untuk halaman home setelah login
-    // Route::get('/home', [HomeController::class, 'index'])->name('home');
+    Route::get('/home', [HomeController::class, 'index'])->name('home');
 
     // Group untuk admin
     Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'admin']], function () {
@@ -44,6 +46,10 @@ Route::middleware('auth')->group(function () {
         });
     });
 });
+
+Route::get('/about', function () {
+    return view('.blogs.about'); // Pastikan ada file view 'about.blade.php'
+})->name('blogs.about');
 
 // Rute untuk login dan logout
 Auth::routes();
