@@ -1,0 +1,42 @@
+// Fonts
+@import url("https://fonts.bunny.net/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+/* Background Dark and Neon Accents */
+.bg-dark-neon {
+    background: #1b1b2f; /* Warna gelap */
+    border-top: 2px solid #ffd700; /* Garis aksen emas neon */
+}
+
+/* Neon Text */
+.neon-text {
+    color: #ffd700; /* Emas Neon */
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffc700;
+}
+
+/* Neon Subtitle */
+.text-neon-subtitle {
+    color: #828282; /* Warna abu untuk subtitle */
+}
+
+/* Neon Links */
+.text-neon-link {
+    color: #00fff0; /* Biru neon */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.text-neon-link:hover {
+    color: #00ffff; /* Biru lebih terang saat hover */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+/* Neon Link Hover */
+.text-neon-hover {
+    color: #ffd700; /* Emas Neon saat hover */
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700;
+}

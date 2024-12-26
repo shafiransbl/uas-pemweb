@@ -1,0 +1,109 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.judul {
+    width: 100;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.isi,
+.makecoment,
+.coment {
+    background-color: white;
+    padding: 20px 40px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #333;
+}
+
+li {
+    list-style-type: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+form .form-group label {
+    font-weight: bold;
+}
+
+form .form-group input,
+form .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #28a745; /* Warna hijau untuk tombol */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838; /* Warna hijau lebih gelap saat hover */
+}
+
+div.mb-2 {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+}
+
+div.mb-2 small {
+    color: #666; /* Warna teks lebih lembut */
+    display: block;
+    margin-top: 10px;
+}
+
+/* Background Dark and Neon Accents */
+.bg-dark-neon {
+    background: #1b1b2f; /* Warna gelap */
+    border-top: 2px solid #ffd700; /* Garis aksen emas neon */
+}
+
+/* Neon Text */
+.neon-text {
+    color: #ffd700; /* Emas Neon */
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700, 0 0 20px #ffc700;
+}
+
+/* Neon Subtitle */
+.text-neon-subtitle {
+    color: #828282; /* Warna abu untuk subtitle */
+}
+
+/* Neon Links */
+.text-neon-link {
+    color: #00fff0; /* Biru neon */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.text-neon-link:hover {
+    color: #00ffff; /* Biru lebih terang saat hover */
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+}
+
+/* Neon Link Hover */
+.text-neon-hover {
+    color: #ffd700; /* Emas Neon saat hover */
+    text-shadow: 0 0 5px #ffd700, 0 0 10px #ffd700;
+}
