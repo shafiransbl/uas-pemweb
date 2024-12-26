@@ -8,6 +8,7 @@
   <title>@yield('title', 'Blog News')</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  @vite(['resources/css/index.css'])
 </head>
 <body class="bg-gray-50 text-gray-800">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

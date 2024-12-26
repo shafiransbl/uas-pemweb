@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="judul">
-            <h1>Edit Blog</h1>
+            <h1>Edit Blog</h1> 
         </div>
         
         <form action="{{ route('blogs.update', $blog) }}" method="POST" enctype="multipart/form-data">
