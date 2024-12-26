@@ -16,7 +16,7 @@ h1{
     flex-direction: column;
 }
 
-.container {
+body .container {
     width: 100%;
     padding: 20px;
     background-color: white;
